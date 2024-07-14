@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic);
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(109.6deg, rgb(177, 173, 219) 11.2%, rgb(245, 226, 226) 91.1%);
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 300;
+  margin: 0;
+}
+
+h3 {
+  font-weight:800;
+}
+
+/* Navigation */
+.navigation {
+  position: fixed;
+  width: 240px;
+  height: 91vh;
+  top: 20px;
+  left: 20px;
+  background: #987D9A;
+  color: #ddd;
+  border-radius: 15px;
+}
+
+.navigation ul {
+  list-style: none;
+}
+
+.navigation li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navigation li a {
+  display: block;
+  padding: 0.7em;
+}
+
+.navigation li a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.main-content {
+  margin-left: 160px;
+  height: 97.8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.content-box {
+  width: 85%;
+  height: 92%;
+  background-color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.content-box_wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 90px;
+}
+
+.content-img {
+  margin-right: 20px;
+}
+
+.content-img img {
+  width: 800px;
+}
+
+.overview {
+  padding: 15px 60px;
+}
+
+
