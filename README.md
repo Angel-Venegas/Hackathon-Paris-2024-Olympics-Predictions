@@ -30,3 +30,6 @@ For detailed insights and visualizations from our analysis, visit our [project p
 - **Shreeya Singh** 
 - **Aayusha Shrestha**
 - **Angel Venegas**
+
+## Hackathon Host - Codédex
+- [codedex.io](https://www.codedex.io/)
